@@ -4,7 +4,8 @@
   "description": "a webpack plugin that can convert webpack assets to specific charset, like gbk",
   "main": "index.js",
   "scripts": {
-    "test": "node test/build.js"
+    "test": "node test/build.js",
+    "debug": "node --inspect-brk=9229 test/build.js"
   },
   "repository": {
     "type": "git",
